@@ -61,7 +61,7 @@ Now need to add these leds back to pcb and place them, along with finishing the 
 
 ---
 
-# Journal 4: PCB component placement
+# Journal 4: PCB Component Placement
 
 **Total time spent: 2.4 hours**
 
@@ -75,6 +75,29 @@ Kept the resistors for the LEDs also near the MCU only rather than near the LED 
 Plan to keep the switches one above the other and 1 led near the MCU and other at the top where hole for making it a keychain can go.
 
 Inital placement took the height of usb stick quite high so tried to refine that and now reduced the overall board length down to around 50mm. Now need to start wiring with traces and finally do a ground pour for various grounds.
+
+---
+
+# Journal 5: PCB Component Wiring
+
+**Total time spent: 3.4 hours**
+
+Started(and almost completed) the wiring for all the componenets in the project, took couple of revisions due to space adjustement and optimisation along with making assembly not highly complex.
+
+Here's how the CH552G looks for now-
+
+<img width="537" height="252" alt="image" src="https://github.com/user-attachments/assets/e818c633-93fb-4d97-bd85-32a4b3ae9cd4" />
+
+Earlier D+ went directly to the USB pad and for the bootloader switch it was branched of in the path, but due to reliability issue with such a method due to docs, the branching was removed and updated design wires D+ directly from pad for both places(the usb pad and pull up push button).
+
+<img width="165" height="734" alt="image" src="https://github.com/user-attachments/assets/27b5c4f8-0031-4a32-9bde-204bea390ef6" />
+<img width="581" height="569" alt="image" src="https://github.com/user-attachments/assets/4473baf3-d3da-41d6-8ac3-c00b1f4e12f7" />
+
+Wires carrying 5V and 3V3 were made thicker than other traces due to better flow of electricity, moreover most of wiring was done on 1st layer only due to SMD nature of componenets except few connections.
+
+
+
+
 
 
 
