@@ -95,6 +95,25 @@ Earlier D+ went directly to the USB pad and for the bootloader switch it was bra
 
 Wires carrying 5V and 3V3 were made thicker than other traces due to better flow of electricity, moreover most of wiring was done on 1st layer only due to SMD nature of componenets except few connections.
 
+---
+
+# Journal 6: Wiring Done and GND pour
+
+**Total time spent: 1.4 hours**
+
+As the wiring work was been completed GND were left so as to be done with GND pour but issue which later appeared-
+
+<img width="374" height="429" alt="image" src="https://github.com/user-attachments/assets/b014faca-06c5-4e26-abce-674ce8123416" />
+<img width="180" height="114" alt="image" src="https://github.com/user-attachments/assets/f1897233-6777-40fa-b760-4672e8425838" />
+
+That the GND pour weren't actually merged but rather due to placement of components getting isolated, and hence to solve this vias were made and connected to GNd pour on other side(Bcu) as well.
+
+<img width="156" height="134" alt="image" src="https://github.com/user-attachments/assets/af7c03bd-9ddd-4d90-972c-bf9ff7e1509e" />
+
+Moreover for GND USB, pour was allowed to move more freely to provide strength and stability.
+
+Overall wiring and GND pour work was done, which as mentioned required couple of revisions for taking less space, now need to move to final polish and firmware.
+
 
 
 
