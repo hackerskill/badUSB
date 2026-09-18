@@ -8,7 +8,7 @@ created_at: "2026-07-27"
 &#x09;
 &#x09;
 
-### Total Hours : 5.2
+### Total Hours : 13
 ---
 # Journal 1: Started the project 
 
@@ -114,12 +114,10 @@ Moreover for GND USB, pour was allowed to move more freely to provide strength a
 
 Overall wiring and GND pour work was done, which as mentioned required couple of revisions for taking less space, now need to move to final polish and firmware.
 
+---
 
+# Journal 7: Manufacturing Files Exported and Firmware work
 
+**Total time spent: 0.6 hours**
 
-
-
-
-
-
-
+Manufacturing files for the PCB were exported comprising of gerbers and drill files, along with this library for firmware was also imported and few examples using it will be put in the repository.
