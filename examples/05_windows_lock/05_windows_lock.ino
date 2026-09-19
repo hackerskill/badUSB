@@ -1,6 +1,6 @@
 #include "src/userUsbHidKeyboardMouse/USBHIDKeyboardMouse.h"
 
-const int ACTION_BUTTON = 17;
+const int ACTION_BUTTON = 17; 
 
 void setup() {
   USBInit();
@@ -11,10 +11,8 @@ void setup() {
 
 void loop() {
   if (digitalRead(ACTION_BUTTON) == LOW) {
-    Keyboard_press(KEY_LEFT_GUI);       // Using CMD+SHIFT+3 Shortcut
-    Keyboard_press(KEY_LEFT_SHIFT);
-    delay(100);
-    Keyboard_press('3');
+    Keyboard_press(KEY_LEFT_GUI);       // Using Windows+L Shortcut
+    Keyboard_press('l');
     delay(100);
     Keyboard_releaseAll();
     delay(500);
