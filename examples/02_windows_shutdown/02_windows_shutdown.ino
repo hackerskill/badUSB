@@ -6,7 +6,7 @@ void setup() {
   USBInit();
   pinMode(ACTION_BUTTON, INPUT_PULLUP);
 
-  while(digitalRead(ACTION_BUTTON) == HIGH) { 
+  while (digitalRead(ACTION_BUTTON) == HIGH) {
     delay(10);
   }
 
@@ -16,14 +16,14 @@ void setup() {
   Keyboard_press('r');
   delay(100);
   Keyboard_releaseAll();
-  
-  Keyboard_print("shutdown /s /f /t 00")
+  delay(600);
+
+  Keyboard_print("shutdown /s /f /t 00");
   delay(100);
-  Keyboard_press('\n')
+  Keyboard_press('\n');
   delay(100);
   Keyboard_releaseAll();
 }
 
 void loop() {
-
 }
