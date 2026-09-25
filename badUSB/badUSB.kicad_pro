@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "../Gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "badUSB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
