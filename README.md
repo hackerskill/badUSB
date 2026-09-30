@@ -32,7 +32,7 @@ USB stick style device to emulate a keyboard for automating payload execution.
 | Component Name | Description | Quantity |
 | :--- | :--- | :---: |
 | **CH552G** | Chipset | 1 |
-| **Resistors** | Resistors for Led| 3 |
+| **Resistors** | Resistors for Led| 4 |
 | **Capacitors** | Capacitors for decoupling | 2 |
 | **Leds** | Led for showing status | 3 |
 | **Buttons** | Buttons for mode switching | 2 |
